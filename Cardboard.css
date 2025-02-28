@@ -1,22 +1,78 @@
 #cardWrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 50px;
     margin: auto;
     justify-content:center;
-}
+}  
 section{
     border: 2px solid black;
-    width: auto;
-    height: auto;
-
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+justify-content: center;
+align-items: end;
+}
+#cardWrapper section p {
+font-size: 1.5em;
+color: white;
 }
 #s1 {
 background-image: url('img/honeyinjar.png');
+background-size: cover;
 }
 #s2  {
      background-image: url('img/honeyinpackage.png');
+    background-size: cover;
  }
  #s3 {
      background-image: url('img/beewax.png');
+    background-size: cover;
  }
+ h2 {
+    text-decoration: underline;
+    text-align: center;
+ }
+#cardWrapperpic{
+        display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin: auto;
+            justify-content: center;
+        }
+        
+        aside {
+            border: 2px solid black;
+            width: 300px;
+            height: 280px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        
+        #cardWrapper section b {
+            font-size: 1.5em;
+            color: white;
+        }
+        
+        #p1 {
+            background-image: url('img/review1.png');
+            background-size: cover;
+        }
+        
+        #p2 {
+            background-image: url('img/honeyinpackage.png');
+            background-size: cover;
+        }
+        
+        #p3 {
+            background-image: url('img/beewax.png');
+            background-size: cover;
+        }
+        
+        h2 {
+            text-decoration: underline;
+            text-align: center;
+        }
