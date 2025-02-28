@@ -1,0 +1,22 @@
+#cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+    justify-content:center;
+}
+section{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+
+}
+#s1 {
+background-image: url('img/honeyinjar.png');
+}
+#s2  {
+     background-image: url('img/honeyinpackage.png');
+ }
+ #s3 {
+     background-image: url('img/beewax.png');
+ }
