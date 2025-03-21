@@ -1,3 +1,16 @@
+#title{
+    text-align: middled;
+    font-size: 20px;
+
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    max-width: 100px;
+    height: auto;
+}
+
 #cardWrapper {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +64,29 @@ background-size: cover;
             justify-content: center;
             align-items: end;
         }
+        #cardWrapper section div {
+            width: 100%;
+            height: 
+        }
+        section {
+                border: 2px solid grey;
+                width: 185px;
+                height: 185px;
+                background-size: cover;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+            }
         
+            section:hover {
+                height: 190px;
+                width: 190px;
+            }
+        
+            #cardWrapper section p {
+                font-size: 20px;
+                text-shadow: 1px 2px 5px rgb(255, 255, 255), -2px -2px 3px white;
+            }
         #cardWrapper section b {
             font-size: 1.5em;
             color: white;
@@ -63,12 +98,12 @@ background-size: cover;
         }
         
         #p2 {
-            background-image: url('img/honeyinpackage.png');
+            background-image: url('img/review\ 2.png');
             background-size: cover;
         }
         
         #p3 {
-            background-image: url('img/beewax.png');
+            background-image: url('img/review3.png');
             background-size: cover;
         }
         
@@ -76,3 +111,26 @@ background-size: cover;
             text-decoration: underline;
             text-align: center;
         }
+  .image-container {
+      text-align: center;
+      margin: 20px;
+     
+        gap: 15px;
+
+  }
+
+  .image-container img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .image-container p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 10px;
+    
+ 
+      margin-top: 10px;}
+.image-container {
+    max-width: 49%;
+}
