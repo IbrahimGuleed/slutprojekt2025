@@ -1,4 +1,59 @@
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    grid-template-areas: 
+'header header'
+   'aside section';
+background-image: url("img/bakgrundsbild.png");
+}
 
+header {
+    color: rgb(244, 244, 244);
+    grid-area: header;
+    text-align: center;
+    padding: 4%;
+}
+section {
+    grid-area: section;
+    color: white;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    padding-left:23%;
+}
+aside{
+    grid-area: aside;
+}
 
+img {
+    padding-left: 15%;
+    width: 80%;
+    height: 90%;
+}
+ul {
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
 
-#page1
+nav ul {
+    display: flex;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+        text-align: center;
+        padding-left: 20%;
+
+      
+}
+
+nav ul li a {
+    width: 100%;
+}
