@@ -3,15 +3,17 @@ body {
     height: 100%;
     width: 100%;
     padding: 0%;
-    grid-template-areas: 
-'header header'
-   'aside section'
-'footer footer';
-background-image: url("img/bakgrundsbild.png");
-grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        'header header'
+        'aside section'
+        'footer footer';
+    background-image: url("img/bakgrundsbild.png");
+    grid-template-rows: auto 1fr auto;
 }
-header{
-    text-align: center;}
+
+header {
+    text-align: center;
+}
 
 header {
     color: rgb(244, 244, 244);
@@ -19,13 +21,14 @@ header {
     text-align: center;
     padding: 4%;
 }
+
 section {
     grid-area: section;
     color: white;
     text-align: center;
     height: 50%;
     width: 50%;
-    padding-left:23%;
+    padding-left: 23%;
 }
 
 img {
@@ -33,18 +36,21 @@ img {
     width: 80%;
     height: 90%;
 }
+
 ul {
     text-align: center;
 }
+
 .content {
     flex-grow: 4;
     padding: 20px;
 }
 
 footer {
-grid-area: footer;
-text-align: center;
+    grid-area: footer;
+    text-align: center;
 }
+
 .rectangle {
     width: 200px;
     height: 20px;
@@ -57,6 +63,7 @@ text-align: center;
     height: 100px;
 
 }
+
 button {
     text-align: center;
     padding: 10px 20px;
